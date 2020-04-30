@@ -10,21 +10,52 @@
             margin: 0;
             padding: 0;
         }
-        .container {
+
+        header {
+            height: 100vh;
+            width: 100%;
+            background-image: url(https://images.unsplash.com/photo-1519070994522-88c6b756330e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1201&q=80);
+            background-position: center;
+            background-size: cover;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            flex-direction: column;
+            color: white;
         }
 
-        .container h1 {
-            color: red;
+
+        h1 {
+            background: rgba(0, 0, 0, 0.2);
         }
+
+        .cursos {
+            height: 100vh;
+            width: 100%;
+            background-image: url(https://images.unsplash.com/photo-1544982905-1e48284f80c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            background-attachment: fixed;
+        }
+
     </style>
 </head>
 <body>
-    <div class='container'>
-        <h1>Template</h1>
-    </div>   
+    <header class='title'>
+        <h1 class='text'>
+          UNIFRAN
+        </h1> 
+     </header>
+     
+     <div class='cursos'>
+       <h1>
+         Matrículas Abertas!
+       </h1>
+     </div>
 </body>
 </html>
